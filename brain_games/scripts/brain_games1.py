@@ -10,3 +10,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+def welcome_user(name) :
+  print(f"Hello, {name}!")
