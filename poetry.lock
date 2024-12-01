@@ -302,6 +302,17 @@ requests-cache = ">=0.5.2,<0.6.0"
 tqdm = ">=4.40.2,<5.0.0"
 
 [[package]]
+name = "prompt"
+version = "0.4.1"
+description = "Library for prompting input on the command line."
+optional = false
+python-versions = ">=3.3"
+files = [
+    {file = "prompt-0.4.1-py3-none-any.whl", hash = "sha256:98527de8dc3f0aa29669a39fbffeaf578ba6654dc836f737b6a5c6f9279002b7"},
+    {file = "prompt-0.4.1.tar.gz", hash = "sha256:8a7694b88f8c65188a983315e72582bf42fcc251b97042be1d2a2ad1aa0ebe0e"},
+]
+
+[[package]]
 name = "pymongo"
 version = "3.13.0"
 description = "Python driver for MongoDB <http://www.mongodb.org>"
@@ -518,4 +529,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "d626a55e3c7b6c41019bcad43daa76d17ed24281673745a4626927185b57262b"
+content-hash = "ea28365e48b12e0c5c76237121f0722b1b54f0cea2b96c3bca2b33e3567d6607"
