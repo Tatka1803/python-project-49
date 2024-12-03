@@ -13,4 +13,5 @@ publish:
 package-install:
 	pipx install dist/*.whl
 
-
+lint:
+	poetry run flake8 brain_games
