@@ -3,7 +3,7 @@ from brain_games.scripts.cli import welcome_user, get_answer
 MAX_SCORE = 3
 
 
-def run_game(game):
+def game_run(game):
     score = 0
     name = welcome_user(game.RULES)
     while score < MAX_SCORE:
