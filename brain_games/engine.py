@@ -6,9 +6,9 @@ MAX_SCORE = 3
 
 
 def run_game(game):
-    print('Welcome to the Brain Games!\n{}\n'.format(game.RULES))
+    print('Welcome to the Brain Games!')
     player_name = prompt.string('May I have your name? ')
-    print('Hello, ' + player_name + '!')
+    print('Hello, ' + player_name + '!\n{}\n'.format(game.RULES))
 
     score = 0
 
