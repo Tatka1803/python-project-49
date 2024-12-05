@@ -1,9 +1,14 @@
-from brain_games.scripts.cli import welcome_user, get_answer
+import prompt
+from brain_games.scripts.cli import get_answer
+
 
 MAX_SCORE = 3
 
+
 def run_game(game):
-    player_name = welcome_user(game.RULES)
+    print('Welcome to the Brain Games!\n{}\n'.format(game.RULES))
+    player_name = prompt.string('May I have your name? ')
+    print('Hello, ' + player_name + '!')
 
     score = 0
 
