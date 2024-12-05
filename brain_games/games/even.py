@@ -3,7 +3,7 @@ from random import randint
 RULES = 'Answer "yes" if number even otherwise answer "no".'
 
 
-def run_game():
+def get_challenge():
     question = randint(1, 100)
 
     if question % 2 == 0:

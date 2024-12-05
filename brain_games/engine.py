@@ -2,14 +2,14 @@ from brain_games.scripts.cli import welcome_user, get_answer
 
 MAX_SCORE = 3
 
-def game_run(game):
+def run_game(game):
     player_name = welcome_user(game.RULES)
 
     score = 0
 
     while score < MAX_SCORE:
 
-        question, correct = game.run_game()
+        question, correct = game.get_challenge()
 
         answer = get_answer(question)
 
