@@ -5,7 +5,7 @@ RULES = "What is the result of the expression?"
 OPERATIONS = [("+", add), ("-", sub), ("*", mul)]
 
 
-def run_game():
+def get_challenge():
     a = randint(1, 100)
     b = randint(1, 100)
 
