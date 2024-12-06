@@ -1,4 +1,4 @@
-import prompt # type: ignore
+import prompt  # type: ignore
 
 
 def welcome_user():
